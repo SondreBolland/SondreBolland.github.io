@@ -115,6 +115,13 @@ img {
     border-style: none
 }
 
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 code,
 kbd,
 pre,
