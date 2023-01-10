@@ -249,7 +249,8 @@ html {
 }
 
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    display: inline;
 }
 
 h2 {
@@ -320,6 +321,33 @@ img {
 
 a {
     color: inherit
+}
+
+#mainMenu {
+	margin: 10px;
+	width: 900px;
+	font-family: sans-serif;
+    vertical-align: middle;
+}
+
+#mainMenu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+}
+
+#mainMenu a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:#009;
+}
+
+#mainMenu a:hover {
+	background-color:#009;
+	color:#fff;
 }
 
 .w3-table,
